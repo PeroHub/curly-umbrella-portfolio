@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: visible;
+
+}
+
+.background-color {
+    background-color: rgb(231, 229, 229);
+}
+
+.navbar-design {
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid rgb(216, 215, 215);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    
+}
+
+.icon {
+    font-size: 2rem;
+    margin: 10px;
+    display: none;
+}
+
+.images-size{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.marginav{
+    display: flex;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+
+.marginav  a{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+    color: #6b6c6d;
+    margin-right: 10px;
+}
+
+.linkdesign {
+    position: relative;
+    right: 110px;
+    margin-left: 10px;
+    padding: 10px 0;
+}
+
+.margin1 h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #4B5563;
+}
+
+.resize img {
+    position: relative;
+    left: 90px;
+}
+
+.designanchor {
+    padding: 10px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6b6c6d;
+    margin: 5px 10px;
+}
+
+.textblack{
+    color: #000;
+}
+
+.margin1{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 137px;
+}
+
+.margin1 h5 {
+    font-size: 30px;
+}
+
+.marginnoon{
+    margin-left: 137px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.marginnoon .boxsize {
+    /* position: relative;
+    left: 70px;
+    padding-left: 100px; */
+}
+
+.secondman {
+    margin-top: 70px;
+}
+
+
+.recent-margin{
+    padding-top: 100px;
+}
+
+.oscard {
+    color: #4B5563;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.marginnav{
+    width: 700px;
+    display: flex;
+    padding: 15px 0;
+    margin: 5px;
+    font-size: 23px;
+    
+}
+
+.margin1 .header5 {
+    font-size: 20px;
+    color: #F87171;
+}
+
+
+.imagemargin{
+    height: 300px;
+    width: 300px;
+    margin-left: 250px;
+    border-radius: 50%;
+}
+
+.resize-image{
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.para {
+    margin: 15px 0;
+    width: 405px;
+    font-size: 18px;
+    color: #374151;
+}
+
+.marginnoon .designthis {
+    margin: 15px 0;
+    font-size: 17px;
+    font-weight: bold;
+    color: #4e4f50;
+}
+
+.marginnoon .fancydesign {
+    background-color: #EF4444;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexanchor {
+    display: flex;
+    
+}
+
+.flexanchor a {
+    margin: 0 2px;
+}
+
+.parag{
+    width: 410px;
+}
+
+.parag2{
+    width: 500px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.header2{
+    margin-top: 30px;
+    color: #EF4444;
+    font-size: 1.5rem;
+}
+
+.buttondesign {
+    background-color: #059669;
+    color: #D1FAE5;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.blackbackground{
+    height: 400px;
+    background-color: #111827;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.displayflex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+    
+    
+}
+
+.marginbutton2 img {
+    margin-top: 40px;
+}
+
+.icon-size{
+    width: 200px;
+    height: 100px;
+    padding-left: 100px;
+    color: inherit;
+}
+
+.footersection{
+    margin-left: 130px;
+    margin-top: 15px;
+}
+
+.footersection .getintourch {
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.marginbutton2{
+    margin-bottom: 150px;
+}
+
+.marmargin {
+    margin-top: 1rem;
+}
+
+.marmargin a {
+    color: #EF4444;
+    font-size: 30px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px)  {
+    .navbar-design {
+        
+        height: 350px;
+        
+    }
+
+    .icon {
+        display: initial;
+    }
+
+    .marginav a {
+        /* position: fixed; */
+        font-size: 14px;
+        display: inline-block;
+    }
+    
+    .linkdesign {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        position: relative;
+        
+        right:380px;
+        top: 60px;
+        margin-left: 260px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .margin1 p {
+        width: 400px;
+        font-size: 1rem;
+    }
+
+    .margin1 h1 {
+        font-size: 25px;
+    }
+
+    .resize img {
+        display: none;
+    }
+
+    .marginnoon {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .marginnoon .boxsize {
+        display: flex;
+        flex-direction: column;
+    }
+}
